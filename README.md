@@ -1,12 +1,12 @@
 #### Problema
 
-Dados dois arquivos texto contendo números dispostos de forma ordenada, implemente a função **merge**, que gera um arquivo equivalente ao merge dos dois arquivos, contendo todos os números presentes nos dois arquivos de entrada, mas sem repetições. A assinatura da função é **void merge(char *nomeArq1, char *nomeArq2, char *nomeArqMerge)*, onde *nomeArq1* e *nomeArq2* são os nomes dos arquivos de entrada, e *nomeArqMerge* é o nome do arquivo que deve ser gerado pela função com o merge dos dois arquivos de entrada. 
+Dados dois arquivos texto contendo números dispostos de forma ordenada, implemente a função **merge**, que gera um arquivo equivalente ao merge dos dois arquivos, contendo todos os números presentes nos dois arquivos de entrada, mas sem repetições. A assinatura da função é **void merge(char *nomeArq1, char *nomeArq2, char *nomeArqMerge)**, onde *nomeArq1* e *nomeArq2* são os nomes dos arquivos de entrada, e *nomeArqMerge* é o nome do arquivo que deve ser gerado pela função com o merge dos dois arquivos de entrada. 
 
-####Entrada
+#### Entrada
 
 Não há entrada a ser lida do teclado. Os nomes dos arquivos de entrada são fornecidos como parâmetro da função. Para correção pelo RunCodes, os arquivos a serem processados serão fornecidos por cada caso de teste. Para que você possa testar seu programa, forneço em anexo dois arquivos de exemplo (numeros1.txt e numeros2.txt).
 
-####Saída
+#### Saída
 
 A saída é o conteúdo do arquivo resultante do merge, que já é realizada na função main. Tudo que sua função *merge* precisa fazer é gravar o arquivo em disco. 
 
@@ -26,7 +26,7 @@ Caso sejam fornecidos como entrada os dois arquivos anexados a esse exercícios 
 37
 40
 57
-&nbsp;
+
 ```
 
 Note a linha em branco no final do arquivo. 
